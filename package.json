@@ -1,0 +1,26 @@
+{
+  "name": "hl7_to_fhir",
+  "version": "1.0.0",
+  "main": "hl7Parser.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha",
+    "test:integration": "mocha test/IntegrationTest.js",
+    "test:unit": "mocha test/UnitTestParser.js",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "chai": "^4.0.0",
+    "mocha": "^9.0.0",
+    "supertest": "^7.0.0"
+  }
+}
